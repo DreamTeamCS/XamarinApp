@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinApp.Results">
+  
+  <!-- základ -->  
+  <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+    
+    <Grid>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+    
+    <BoxView Color="#5A007D" Grid.ColumnSpan="3" HeightRequest="80" HorizontalOptions="FillAndExpand"/>
+    <Label Text="Results" FontSize="40" FontFamily="Roboto" TextColor="White" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"/>
+    <Label Text="Statistics" FontSize="40" TextColor="White" FontFamily="Roboto" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center"/>
+    <Label Text="Table" FontSize="40" TextColor="White" FontFamily="Roboto" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center"/>
+    <BoxView Color="Gray" HeightRequest="80" HorizontalOptions="FillAndExpand" Grid.Column="0"/>
+    </Grid>
+    
+    <!-- základ -->
+    
+    <Label Text="Sun 21st May 2017" FontSize="38" FontFamily="Roboto" HorizontalOptions="Center"/>      
+    <Grid>
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="*" />
+        <ColumnDefinition Width="0.2*" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+      <BoxView Color="#5A007D" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Grid.Column="1"/>
+      <Label Text="Manchester United" FontSize="30" FontFamily="Roboto" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"/>
+      <Label Text="Liverpool" FontSize="30" FontFamily="Roboto" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center"/>
+      
+    </Grid>
+
+    
+
+  </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,14 @@
+D:\lupacja14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\XamarinApp.dll
+D:\lupacja14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\XamarinApp.pdb
+D:\lupacja14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\Xamarin.Forms.Core.dll
+D:\lupacja14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\Xamarin.Forms.Platform.dll
+D:\lupacja14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\lupacja14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\Xamarin.Forms.Core.pdb
+D:\lupacja14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\Xamarin.Forms.Core.xml
+D:\lupacja14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\Xamarin.Forms.Platform.pdb
+D:\lupacja14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\Xamarin.Forms.Xaml.pdb
+D:\lupacja14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\Xamarin.Forms.Xaml.xml
+D:\lupacja14\XamarinApp\XamarinApp\XamarinApp\obj\Debug\XamarinApp.csprojResolveAssemblyReference.cache
+D:\lupacja14\XamarinApp\XamarinApp\XamarinApp\obj\Debug\XamarinApp.Results.xaml.g.cs
+D:\lupacja14\XamarinApp\XamarinApp\XamarinApp\obj\Debug\XamarinApp.dll
+D:\lupacja14\XamarinApp\XamarinApp\XamarinApp\obj\Debug\XamarinApp.pdb

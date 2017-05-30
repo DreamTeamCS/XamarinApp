@@ -1,0 +1,2 @@
+D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.UWP\XamarinApp.UWP.csproj;x86
+D:\lupacja14\XamarinApp\XamarinApp\XamarinApp\XamarinApp.csproj;neutral
