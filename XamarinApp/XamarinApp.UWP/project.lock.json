@@ -15757,16 +15757,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\lupacja14\\XamarinApp\\XamarinApp\\XamarinApp.UWP\\XamarinApp.UWP.csproj",
+      "projectUniqueName": "D:\\kloceto14\\XamarinApp\\XamarinApp\\XamarinApp.UWP\\XamarinApp.UWP.csproj",
       "projectName": "XamarinApp.UWP",
-      "projectPath": "D:\\lupacja14\\XamarinApp\\XamarinApp\\XamarinApp.UWP\\XamarinApp.UWP.csproj",
-      "projectJsonPath": "D:\\lupacja14\\XamarinApp\\XamarinApp\\XamarinApp.UWP\\project.json",
+      "projectPath": "D:\\kloceto14\\XamarinApp\\XamarinApp\\XamarinApp.UWP\\XamarinApp.UWP.csproj",
+      "projectJsonPath": "D:\\kloceto14\\XamarinApp\\XamarinApp\\XamarinApp.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "D:\\lupacja14\\XamarinApp\\XamarinApp\\XamarinApp\\XamarinApp.csproj": {
-              "projectPath": "D:\\lupacja14\\XamarinApp\\XamarinApp\\XamarinApp\\XamarinApp.csproj"
+            "D:\\kloceto14\\XamarinApp\\XamarinApp\\XamarinApp\\XamarinApp.csproj": {
+              "projectPath": "D:\\kloceto14\\XamarinApp\\XamarinApp\\XamarinApp\\XamarinApp.csproj"
             }
           }
         }

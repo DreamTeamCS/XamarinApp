@@ -1,0 +1,191 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace XamarinApp
+{
+    public class Teams
+    {
+        List<string> teamList = new List<string>();
+        Dictionary<string, int> position = new Dictionary<string, int>();
+        Dictionary<string, int> points = new Dictionary<string, int>();
+        Dictionary<string, int> won = new Dictionary<string, int>();
+        Dictionary<string, int> drawn = new Dictionary<string, int>();
+        Dictionary<string, int> lost = new Dictionary<string, int>();
+        Dictionary<string, int> scored = new Dictionary<string, int>();
+        Dictionary<string, int> conceded = new Dictionary<string, int>();
+
+        public Teams()
+        {
+            teamList.Add("Arsenal");
+            teamList.Add("Bournemouth");
+            teamList.Add("Burnley");
+            teamList.Add("Chelsea");
+            teamList.Add("Crystal Palace");
+            teamList.Add("Everton");
+            teamList.Add("Hull City");
+            teamList.Add("Leicester City");
+            teamList.Add("Liverpool");
+            teamList.Add("Manchester City");
+            teamList.Add("Manchester United");
+            teamList.Add("Middlesbrough");
+            teamList.Add("Southampton");
+            teamList.Add("Stoke City");
+            teamList.Add("Sunderland");
+            teamList.Add("Swansea");
+            teamList.Add("Tottenham Hotspur");
+            teamList.Add("Watford");
+            teamList.Add("West Bromvich Albion");
+            teamList.Add("West Ham United");
+
+            position.Add("Arsenal", 5);
+            position.Add("Bournemouth", 9);
+            position.Add("Burnley", 16);
+            position.Add("Chelsea", 1);
+            position.Add("Crystal Palace", 14);
+            position.Add("Everton", 7);
+            position.Add("Hull City", 18);
+            position.Add("Leicester City", 12);
+            position.Add("Liverpool", 4);
+            position.Add("Manchester City", 3);
+            position.Add("Manchester United", 6);
+            position.Add("Middlesbrough", 19);
+            position.Add("Southampton", 8);
+            position.Add("Stoke City", 13);
+            position.Add("Sunderland", 20);
+            position.Add("Swansea", 15);
+            position.Add("Tottenham Hotspur", 2);
+            position.Add("Watford", 17);
+            position.Add("West Bromvich Albion", 10);
+            position.Add("West Ham United", 11);
+
+            won.Add("Arsenal", 25);
+            won.Add("Bournemouth", 15);
+            won.Add("Burnley", 10);
+            won.Add("Chelsea", 30);
+            won.Add("Crystal Palace", 7);
+            won.Add("Everton", 18);
+            won.Add("Hull City", 3);
+            won.Add("Leicester City", 9);
+            won.Add("Liverpool", 23);
+            won.Add("Manchester City", 24);
+            won.Add("Manchester United", 20);
+            won.Add("Middlesbrough", 12);
+            won.Add("Southampton", 14);
+            won.Add("Stoke City", 15);
+            won.Add("Sunderland", 2);
+            won.Add("Swansea", 6);
+            won.Add("Tottenham Hotspur", 28);
+            won.Add("Watford", 14);
+            won.Add("West Bromvich Albion", 10);
+            won.Add("West Ham United", 13);
+
+            drawn.Add("Arsenal", 5);
+            drawn.Add("Bournemouth", 8);
+            drawn.Add("Burnley", 10);
+            drawn.Add("Chelsea", 3);
+            drawn.Add("Crystal Palace", 16);
+            drawn.Add("Everton", 17);
+            drawn.Add("Hull City", 10);
+            drawn.Add("Leicester City", 13);
+            drawn.Add("Liverpool", 9);
+            drawn.Add("Manchester City", 8);
+            drawn.Add("Manchester United", 12);
+            drawn.Add("Middlesbrough", 5);
+            drawn.Add("Southampton", 8);
+            drawn.Add("Stoke City", 7);
+            drawn.Add("Sunderland", 9);
+            drawn.Add("Swansea", 14);
+            drawn.Add("Tottenham Hotspur", 6);
+            drawn.Add("Watford", 14);
+            drawn.Add("West Bromvich Albion", 11);
+            drawn.Add("West Ham United", 13);
+
+            lost.Add("Arsenal", );
+            lost.Add("Bournemouth", );
+            lost.Add("Burnley", );
+            lost.Add("Chelsea", );
+            lost.Add("Crystal Palace", );
+            lost.Add("Everton", );
+            lost.Add("Hull City", );
+            lost.Add("Leicester City", );
+            lost.Add("Liverpool", );
+            lost.Add("Manchester City", );
+            lost.Add("Manchester United", );
+            lost.Add("Middlesbrough", );
+            lost.Add("Southampton", );
+            lost.Add("Stoke City", );
+            lost.Add("Sunderland", );
+            lost.Add("Swansea", );
+            lost.Add("Tottenham Hotspur", );
+            lost.Add("Watford", );
+            lost.Add("West Bromvich Albion", );
+            lost.Add("West Ham United", );
+
+            scored.Add("Arsenal", );
+            scored.Add("Bournemouth", );
+            scored.Add("Burnley", );
+            scored.Add("Chelsea", );
+            scored.Add("Crystal Palace", );
+            scored.Add("Everton", );
+            scored.Add("Hull City", );
+            scored.Add("Leicester City", );
+            scored.Add("Liverpool", );
+            scored.Add("Manchester City", );
+            scored.Add("Manchester United", );
+            scored.Add("Middlesbrough", );
+            scored.Add("Southampton", );
+            scored.Add("Stoke City", );
+            scored.Add("Sunderland", );
+            scored.Add("Swansea", );
+            scored.Add("Tottenham Hotspur", );
+            scored.Add("Watford", );
+            scored.Add("West Bromvich Albion", );
+            scored.Add("West Ham United", );
+
+            conceded.Add("Arsenal", );
+            conceded.Add("Bournemouth", );
+            conceded.Add("Burnley", );
+            conceded.Add("Chelsea", );
+            conceded.Add("Crystal Palace", );
+            conceded.Add("Everton", );
+            conceded.Add("Hull City", );
+            conceded.Add("Leicester City", );
+            conceded.Add("Liverpool", );
+            conceded.Add("Manchester City", );
+            conceded.Add("Manchester United", );
+            conceded.Add("Middlesbrough", );
+            conceded.Add("Southampton", );
+            conceded.Add("Stoke City", );
+            conceded.Add("Sunderland", );
+            conceded.Add("Swansea", );
+            conceded.Add("Tottenham Hotspur", );
+            conceded.Add("Watford", );
+            conceded.Add("West Bromvich Albion", );
+            conceded.Add("West Ham United", );
+
+            points.Add("Arsenal", );
+            points.Add("Bournemouth", );
+            points.Add("Burnley", );
+            points.Add("Chelsea", );
+            points.Add("Crystal Palace", );
+            points.Add("Everton", );
+            points.Add("Hull City", );
+            points.Add("Leicester City", );
+            points.Add("Liverpool", );
+            points.Add("Manchester City", );
+            points.Add("Manchester United", );
+            points.Add("Middlesbrough", );
+            points.Add("Southampton", );
+            points.Add("Stoke City", );
+            points.Add("Sunderland", );
+            points.Add("Swansea", );
+            points.Add("Tottenham Hotspur", );
+            points.Add("Watford", );
+            points.Add("West Bromvich Albion", );
+            points.Add("West Ham United", );
+        }
+    }
+}

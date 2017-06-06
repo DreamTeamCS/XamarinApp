@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DST20704</Machine>
+    <Machine>DST20705</Machine>
     <WindowsUser>lupacja14</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>02832cad-15aa-4a78-bbc4-f99170404519</PackageIdentityName>
     <PackageIdentityPublisher>CN=lupacja14</PackageIdentityPublisher>
-    <IntermediateOutputPath>D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>904AA1B40EB720082768D45F8F211580A77313F44C8CA2CEDC107DA4ED2BA5C1</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>02832cad-15aa-4a78-bbc4-f99170404519cc_1.0.0.0_x86__0m1940rssbvpe</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>02832cad-15aa-4a78-bbc4-f99170404519cc_0m1940rssbvpe!App</RegisteredUserModeAppID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-30T06:35:21.832</Modified>
+      <Modified>2017-06-06T12:25:16.138</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\XamarinApp.UWP.exe">
+    <AppxPackagedFile Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\XamarinApp.UWP.exe">
       <PackagePath>entrypoint\XamarinApp.UWP.exe</PackagePath>
-      <Modified>2017-05-30T06:35:20.939</Modified>
+      <Modified>2017-06-06T12:25:15.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lupacja14\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -467,55 +467,55 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2015-11-17T06:31:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\lupacja14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\XamarinApp.dll">
+    <AppxPackagedFile Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\XamarinApp.dll">
       <PackagePath>XamarinApp.dll</PackagePath>
-      <Modified>2017-05-30T06:35:18.641</Modified>
+      <Modified>2017-06-06T12:25:13.569</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-05-18T12:29:11.361</Modified>
+      <Modified>2017-06-06T12:05:58.517</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2017-05-18T12:29:11.344</Modified>
+      <Modified>2017-06-06T12:05:58.505</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-18T12:29:11.347</Modified>
+      <Modified>2017-06-06T12:05:58.506</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-18T12:29:11.349</Modified>
+      <Modified>2017-06-06T12:05:58.506</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-18T12:29:11.351</Modified>
+      <Modified>2017-06-06T12:05:58.507</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-18T12:29:11.353</Modified>
+      <Modified>2017-06-06T12:05:58.508</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-18T12:29:11.355</Modified>
+      <Modified>2017-06-06T12:05:58.509</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-18T12:29:11.357</Modified>
+      <Modified>2017-06-06T12:05:58.510</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\XamarinApp.UWP.xr.xml">
+    <AppxPackagedFile Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\XamarinApp.UWP.xr.xml">
       <PackagePath>XamarinApp.UWP.xr.xml</PackagePath>
-      <Modified>2017-05-23T12:35:13.629</Modified>
+      <Modified>2017-06-06T12:06:02.975</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
-      <Modified>2017-04-12T09:21:52.791</Modified>
+      <Modified>2017-04-12T09:48:35.496</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\lupacja14\.nuget\packages\Xamarin.Forms\2.0.0.6482\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
@@ -525,14 +525,14 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml</PackagePath>
       <Modified>2015-11-17T06:31:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-05-30T06:25:46.729</Modified>
+      <Modified>2017-06-06T12:18:13.859</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\Core\XamarinApp.UWP.exe">
+    <AppxPackagedFile Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\Core\XamarinApp.UWP.exe">
       <PackagePath>XamarinApp.UWP.exe</PackagePath>
-      <Modified>2017-05-30T06:35:21.486</Modified>
+      <Modified>2017-06-06T12:25:16.135</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
