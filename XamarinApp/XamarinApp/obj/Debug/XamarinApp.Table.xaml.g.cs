@@ -17,8 +17,52 @@ namespace XamarinApp {
     public partial class Table : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Grid grid;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label teamPos;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label teamName;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label teamPlayed;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label teamWon;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label teamDrawn;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label teamLost;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label teamScored;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label teamConceded;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label teamGD;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label teamPoints;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(Table));
+            grid = this.FindByName<global::Xamarin.Forms.Grid>("grid");
+            teamPos = this.FindByName<global::Xamarin.Forms.Label>("teamPos");
+            teamName = this.FindByName<global::Xamarin.Forms.Label>("teamName");
+            teamPlayed = this.FindByName<global::Xamarin.Forms.Label>("teamPlayed");
+            teamWon = this.FindByName<global::Xamarin.Forms.Label>("teamWon");
+            teamDrawn = this.FindByName<global::Xamarin.Forms.Label>("teamDrawn");
+            teamLost = this.FindByName<global::Xamarin.Forms.Label>("teamLost");
+            teamScored = this.FindByName<global::Xamarin.Forms.Label>("teamScored");
+            teamConceded = this.FindByName<global::Xamarin.Forms.Label>("teamConceded");
+            teamGD = this.FindByName<global::Xamarin.Forms.Label>("teamGD");
+            teamPoints = this.FindByName<global::Xamarin.Forms.Label>("teamPoints");
         }
     }
 }

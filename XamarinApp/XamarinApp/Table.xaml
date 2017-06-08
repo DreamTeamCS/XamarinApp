@@ -19,7 +19,7 @@
         </Grid>
 
         <!-- základ -->
-        <Grid>
+        <Grid x:Name="grid">
             <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
             <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
             <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
