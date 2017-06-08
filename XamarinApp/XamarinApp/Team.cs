@@ -6,19 +6,15 @@ using System.Threading.Tasks;
 
 namespace XamarinApp
 {
-    class Team
+    public class Team
     {
+        Teams position = new Teams();
+
         private int _position;
         public int Position
         {
             get { return _position; }
             set { _position = value; }
-        }
-        private int _points;
-        public int Points
-        {
-            get { return _points; }
-            set { _points = value; }
         }
         private string _name;
         public string Name
@@ -64,6 +60,21 @@ namespace XamarinApp
         public int Played()
         {
             return _won + _drawn + _lost;
+        }
+        public int Points()
+        {
+            return _won * 3 + _drawn;
+        }
+
+        public void GetTeam(int pos)
+        {
+            _position = pos;
+            _name = position.GetName(pos);
+            _won = position.GetWon(pos);
+            _drawn = position.GetDrawn(pos);
+            _lost = position.GetLost(pos);
+            _scored = position.GetScored(pos);
+            _conceded = position.GetConceded(pos);
         }
     }
 }
