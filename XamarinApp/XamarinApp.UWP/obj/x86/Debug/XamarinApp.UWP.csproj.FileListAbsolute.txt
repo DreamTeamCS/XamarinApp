@@ -316,7 +316,11 @@ D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\Xamarin.Forms.Pl
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\Xamarin.Forms.Platform.dll
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\Xamarin.Forms.Xaml.dll
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\XamarinApp.dll
+D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\SQLite-net.dll
+D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\SQLitePCLRaw.core.dll
+D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\SQLitePCLRaw.batteries_v2.dll
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\XamarinApp.pdb
+D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\SQLite-net.xml
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\obj\x86\Debug\XamarinApp.UWP.csprojResolveAssemblyReference.cache
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\obj\x86\Debug\App.g.i.cs
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\obj\x86\Debug\App.g.cs

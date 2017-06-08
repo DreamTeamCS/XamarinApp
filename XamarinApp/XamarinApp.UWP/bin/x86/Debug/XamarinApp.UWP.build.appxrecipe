@@ -352,6 +352,15 @@
     <AppxPackagedFile Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\XamarinApp.dll">
       <PackagePath>XamarinApp.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

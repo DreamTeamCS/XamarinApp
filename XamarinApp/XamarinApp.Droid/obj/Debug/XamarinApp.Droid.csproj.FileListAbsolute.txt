@@ -68,4 +68,3 @@ D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.Droid\obj\Debug\android\assets\Xam
 D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.Droid\obj\Debug\android\assets\XamarinApp.dll.mdb
 D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.Droid\obj\Debug\android\assets\XamarinApp.Droid.dll.mdb
 D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.Droid\obj\Debug\XamarinApp.Droid.dll.mdb
-D:\lupacja14\XamarinApp\XamarinApp\XamarinApp.Droid\bin\Debug\XamarinApp.Droid.dll.mdb

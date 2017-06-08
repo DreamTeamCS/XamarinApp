@@ -14,9 +14,14 @@ D:\lupacja14\XamarinApp\XamarinApp\XamarinApp\obj\Debug\XamarinApp.dll
 D:\lupacja14\XamarinApp\XamarinApp\XamarinApp\obj\Debug\XamarinApp.pdb
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\XamarinApp.dll
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\XamarinApp.pdb
+D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\SQLite-net.dll
+D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\SQLitePCLRaw.batteries_green.dll
+D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\SQLitePCLRaw.core.dll
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\Xamarin.Forms.Core.dll
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\Xamarin.Forms.Platform.dll
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\Xamarin.Forms.Xaml.dll
+D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\SQLite-net.xml
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\Xamarin.Forms.Core.pdb
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\Xamarin.Forms.Core.xml
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\Xamarin.Forms.Platform.pdb
@@ -25,5 +30,6 @@ D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\bin\Debug\Xamarin.Forms.Xaml.xml
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\obj\Debug\XamarinApp.csprojResolveAssemblyReference.cache
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\obj\Debug\XamarinApp.Results.xaml.g.cs
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\obj\Debug\XamarinApp.Statistics.xaml.g.cs
+D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\obj\Debug\XamarinApp.Table.xaml.g.cs
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\obj\Debug\XamarinApp.dll
 D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\obj\Debug\XamarinApp.pdb

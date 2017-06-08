@@ -19,7 +19,7 @@
         </Grid>
 
         <!-- základ -->
-        <Grid x:Name="grid">
+        <Grid>
             <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
             <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
             <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
@@ -33,15 +33,15 @@
 
             <BoxView Color="White" Grid.ColumnSpan="10" HeightRequest="30" HorizontalOptions="FillAndExpand"/>
             <Label x:Name="teamPos" Grid.Column="0"/>
-            <Label x:Name="teamName" Grid.Column="0"/>
-            <Label x:Name="teamPlayed" Grid.Column="0"/>
-            <Label x:Name="teamWon" Grid.Column="0"/>
-            <Label x:Name="teamDrawn" Grid.Column="0"/>
-            <Label x:Name="teamLost" Grid.Column="0"/>
-            <Label x:Name="teamScored" Grid.Column="0"/>
-            <Label x:Name="teamConceded" Grid.Column="0"/>
-            <Label x:Name="teamGD" Grid.Column="0"/>
-            <Label x:Name="teamPoints" Grid.Column="0"/>
+            <Label x:Name="teamName" Grid.Column="1"/>
+            <Label x:Name="teamPlayed" Grid.Column="2"/>
+            <Label x:Name="teamWon" Grid.Column="3"/>
+            <Label x:Name="teamDrawn" Grid.Column="4"/>
+            <Label x:Name="teamLost" Grid.Column="5"/>
+            <Label x:Name="teamScored" Grid.Column="6"/>
+            <Label x:Name="teamConceded" Grid.Column="7"/>
+            <Label x:Name="teamGD" Grid.Column="8"/>
+            <Label x:Name="teamPoints" Grid.Column="9"/>
             
         </Grid>
         

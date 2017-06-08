@@ -17,9 +17,6 @@ namespace XamarinApp {
     public partial class Table : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.Grid grid;
-        
-        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.Label teamPos;
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
@@ -52,7 +49,6 @@ namespace XamarinApp {
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(Table));
-            grid = this.FindByName<global::Xamarin.Forms.Grid>("grid");
             teamPos = this.FindByName<global::Xamarin.Forms.Label>("teamPos");
             teamName = this.FindByName<global::Xamarin.Forms.Label>("teamName");
             teamPlayed = this.FindByName<global::Xamarin.Forms.Label>("teamPlayed");

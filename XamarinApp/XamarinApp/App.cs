@@ -27,7 +27,7 @@ namespace XamarinApp
                 }
             };
 
-            MainPage = new NavigationPage(new Results());
+            MainPage = new NavigationPage(new Table());
         }
 
         protected override void OnStart()

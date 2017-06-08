@@ -9,15 +9,29 @@ using Xamarin.Forms.Xaml;
 
 namespace XamarinApp
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
+
     public partial class Table : ContentPage
     {
-        Team team;
+        Team team = new Team();
         public Table()
         {
             InitializeComponent();
-            List<int> positions = new List<int>();
 
+            for (int i = 1; i < 21; i++)
+            {
+                if (i != 0)
+                {
+                    team.Position = i;
+                    team.Name = "Team" + i;
+                    team.Won = i;
+                    team.Drawn = i;
+                    team.Lost = i;
+                    team.Scored = 20 + i;
+                    team.Conceded = 10 + i;
+
+                    Database.SaveItemAsync(team);
+                }
+            }
             
         }
 

@@ -9,7 +9,6 @@ using Xamarin.Forms.Xaml;
 
 namespace XamarinApp
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Statistics : ContentPage
     {
         public Statistics()

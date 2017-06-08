@@ -16,7 +16,7 @@
             <Label Text="Results" FontSize="40" FontFamily="Roboto" TextColor="White" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"/>
             <Label Text="Statistics" FontSize="40" TextColor="White" FontFamily="Roboto" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center"/>
             <Label Text="Table" FontSize="40" TextColor="White" FontFamily="Roboto" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center"/>
-            <BoxView Color="Gray" HeightRequest="80" HorizontalOptions="FillAndExpand" Grid.Column="0"/>
+            <BoxView Color="Gray" HeightRequest="4" VerticalOptions="End" HorizontalOptions="FillAndExpand" Grid.Column="1"/>
         </Grid>
 
     </StackLayout>
