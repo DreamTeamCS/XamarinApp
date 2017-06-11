@@ -1,2 +1,2 @@
-D:\kloceto14\XamarinApp\XamarinApp\XamarinApp.UWP\XamarinApp.UWP.csproj;x86
-D:\kloceto14\XamarinApp\XamarinApp\XamarinApp\XamarinApp.csproj;neutral
+C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp.UWP\XamarinApp.UWP.csproj;x86
+C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp\XamarinApp.csproj;neutral

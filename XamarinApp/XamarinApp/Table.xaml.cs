@@ -17,21 +17,21 @@ namespace XamarinApp
         {
             InitializeComponent();
 
-            for (int i = 1; i < 21; i++)
+            /*for (int i = 1; i < 21; i++)
             {
                 if (i != 0)
-                {
-                    team.Position = i;
-                    team.Name = "Team" + i;
-                    team.Won = i;
-                    team.Drawn = i;
-                    team.Lost = i;
-                    team.Scored = 20 + i;
-                    team.Conceded = 10 + i;
+                {*/
+                    team.Position = 1;
+                    team.Name = "Team";
+                    team.Won = 24;
+                    team.Drawn = 10;
+                    team.Lost = 4;
+                    team.Scored = 20;
+                    team.Conceded = 10;
 
                     Database.SaveItemAsync(team);
-                }
-            }
+                /*}
+            }*/
             
         }
 
@@ -53,12 +53,12 @@ namespace XamarinApp
         private async void ShowTable()
         {
 
-            for (int i = 0; i < 20; i++)
-            {
-                team = await Database.GetTeam(i);
+            //for (int i = 0; i < 20; i++)
+            //{
+                team = await Database.GetTeam(1);
 
                 var label = new Label { Text = team.ToString() };
-            }
+            //}
             /*var label2 = new Label { Text = team.Name};
             var label3 = new Label { Text = team.Played().ToString() };
             var label4 = new Label { Text = team.Won.ToString() };

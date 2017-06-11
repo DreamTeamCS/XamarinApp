@@ -15753,20 +15753,20 @@
     "UAP,Version=v10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lupacja14\\.nuget\\packages\\": {}
+    "C:\\Users\\dana\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
-      "projectUniqueName": "D:\\kloceto14\\XamarinApp\\XamarinApp\\XamarinApp.UWP\\XamarinApp.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\dana\\Desktop\\Repos\\XamarinApp\\XamarinApp\\XamarinApp.UWP\\XamarinApp.UWP.csproj",
       "projectName": "XamarinApp.UWP",
-      "projectPath": "D:\\kloceto14\\XamarinApp\\XamarinApp\\XamarinApp.UWP\\XamarinApp.UWP.csproj",
-      "projectJsonPath": "D:\\kloceto14\\XamarinApp\\XamarinApp\\XamarinApp.UWP\\project.json",
+      "projectPath": "C:\\Users\\dana\\Desktop\\Repos\\XamarinApp\\XamarinApp\\XamarinApp.UWP\\XamarinApp.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\dana\\Desktop\\Repos\\XamarinApp\\XamarinApp\\XamarinApp.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "D:\\kloceto14\\XamarinApp\\XamarinApp\\XamarinApp\\XamarinApp.csproj": {
-              "projectPath": "D:\\kloceto14\\XamarinApp\\XamarinApp\\XamarinApp\\XamarinApp.csproj"
+            "C:\\Users\\dana\\Desktop\\Repos\\XamarinApp\\XamarinApp\\XamarinApp\\XamarinApp.csproj": {
+              "projectPath": "C:\\Users\\dana\\Desktop\\Repos\\XamarinApp\\XamarinApp\\XamarinApp\\XamarinApp.csproj"
             }
           }
         }

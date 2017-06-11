@@ -10,6 +10,7 @@ namespace XamarinApp
     public class Team
     {
         [PrimaryKey, AutoIncrement]
+        public int ID { get; set; }
         public int Position { get; set; }
         public string Name { get; set; }
         public int Won { get; set; }
