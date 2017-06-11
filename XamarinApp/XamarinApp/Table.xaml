@@ -1,9 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="XamarinApp.Table">
+             x:Class="XamarinApp.Table"
+             x:Name="tablePage">
     <!-- základ -->
-    <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+            
+            <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
 
         <Grid>
             <Grid.ColumnDefinitions>
@@ -14,38 +16,55 @@
 
             <BoxView Color="#5A007D" Grid.ColumnSpan="3" HeightRequest="80" HorizontalOptions="FillAndExpand"/>
             <Label Text="Results" FontSize="40" FontFamily="Roboto" TextColor="White" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"/>
+          <Button HorizontalOptions="FillAndExpand" Grid.Column="0" Opacity="0" Clicked="ResultsNav_Click"/>
             <Label Text="Statistics" FontSize="40" TextColor="White" FontFamily="Roboto" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center"/>
-            <Label Text="Table" FontSize="40" TextColor="White" FontFamily="Roboto" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center"/>
+          <Button HorizontalOptions="FillAndExpand" Grid.Column="1" Opacity="0" Clicked="StatNav_Click"/> 
+          <Label Text="Table" FontSize="40" TextColor="White" FontFamily="Roboto" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center"/>
+          <BoxView Color="Gray" HeightRequest="4" VerticalOptions="End" HorizontalOptions="FillAndExpand"  Grid.Column="2"/>
         </Grid>
 
         <!-- základ -->
-        <Grid>
-            <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
-            <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
-            <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
-            <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
-            <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
-            <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
-            <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
-            <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
-            <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
-            <Grid.ColumnDefinitions></Grid.ColumnDefinitions>
+        
+            <ListView x:Name="list"  ItemsSource="{Binding Team}" RowHeight="55">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="5">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="20"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
 
-            <BoxView Color="White" Grid.ColumnSpan="10" HeightRequest="30" HorizontalOptions="FillAndExpand"/>
-            <Label x:Name="teamPos" Grid.Column="0"/>
-            <Label x:Name="teamName" Grid.Column="1"/>
-            <Label x:Name="teamPlayed" Grid.Column="2"/>
-            <Label x:Name="teamWon" Grid.Column="3"/>
-            <Label x:Name="teamDrawn" Grid.Column="4"/>
-            <Label x:Name="teamLost" Grid.Column="5"/>
-            <Label x:Name="teamScored" Grid.Column="6"/>
-            <Label x:Name="teamConceded" Grid.Column="7"/>
-            <Label x:Name="teamGD" Grid.Column="8"/>
-            <Label x:Name="teamPoints" Grid.Column="9"/>
-            
-        </Grid>
-        
-        
-        
+                                <Label Grid.Column="0" Text="{Binding Path=Position, Mode=OneWay}" ></Label>
+                                <Label Grid.Column="1" Text="{Binding Path=Name, Mode=OneWay}" ></Label>
+                                <Label Grid.Column="2" Text="{Binding Path=Played, Mode=OneWay}" ></Label>
+                                <Label Grid.Column="3" Text="{Binding Path=Won, Mode=OneWay}" ></Label>
+                                <Label Grid.Column="4" Text="{Binding Path=Drawn, Mode=OneWay}" ></Label>
+                                <Label Grid.Column="5" Text="{Binding Path=Lost, Mode=OneWay}" ></Label>
+                                <Label Grid.Column="6" Text="{Binding Path=Scored, Mode=OneWay}" ></Label>
+                                <Label Grid.Column="7" Text="{Binding Path=Conceded, Mode=OneWay}" ></Label>
+                                <Label Grid.Column="8" Text="{Binding Path=GoalDifference, Mode=OneWay}" ></Label>
+                                <Label Grid.Column="9" Text="{Binding Path=Points, Mode=OneWay}" ></Label>
+                                
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+        <Label x:Name="label" TextColor="Black" FontSize="Large"/>
+
     </StackLayout>
 </ContentPage>

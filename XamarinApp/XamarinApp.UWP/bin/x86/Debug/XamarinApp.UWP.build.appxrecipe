@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>02832cad-15aa-4a78-bbc4-f99170404519</PackageIdentityName>
     <PackageIdentityPublisher>CN=lupacja14</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\XamarinApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\XamarinApp.UWP.exe">
       <PackagePath>entrypoint\XamarinApp.UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\dana\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
@@ -349,49 +349,64 @@
     <AppxPackagedFile Include="C:\Users\dana\.nuget\packages\Xamarin.Forms\2.0.0.6482\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp\bin\Debug\XamarinApp.dll">
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp\bin\Debug\XamarinApp.dll">
       <PackagePath>XamarinApp.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp\bin\Debug\SQLite-net.dll">
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp\bin\Debug\RestSharp.Portable.Core.dll">
+      <PackagePath>RestSharp.Portable.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp\bin\Debug\RestSharp.Portable.HttpClient.dll">
+      <PackagePath>RestSharp.Portable.HttpClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp\bin\Debug\SQLite-net.dll">
       <PackagePath>SQLite-net.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp\bin\Debug\SQLitePCLRaw.core.dll">
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp\bin\Debug\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp\bin\Debug\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp\bin\Debug\SQLitePCLRaw.core.dll">
       <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp\bin\Debug\SQLitePCLRaw.batteries_v2.dll">
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp\bin\Debug\SQLitePCLRaw.batteries_v2.dll">
       <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp\bin\Debug\XamarinApp.dll.config">
+      <PackagePath>XamarinApp.dll.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\XamarinApp.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\XamarinApp.UWP.xr.xml">
       <PackagePath>XamarinApp.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
@@ -403,11 +418,11 @@
     <AppxPackagedFile Include="C:\Users\dana\.nuget\packages\Xamarin.Forms\2.0.0.6482\lib\uap10.0\Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\XamarinApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\Core\XamarinApp.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\dana\Desktop\Repos\PremApp\XamarinApp\XamarinApp.UWP\bin\x86\Debug\Core\XamarinApp.UWP.exe">
       <PackagePath>XamarinApp.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

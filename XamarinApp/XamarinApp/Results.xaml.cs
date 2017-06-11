@@ -14,5 +14,15 @@ namespace XamarinApp
         {
             InitializeComponent();
         }
+
+        private async void StatNav_Click(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Statistics());
+        }
+
+        private async void TableNav_Click(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Table());
+        }
     }
 }

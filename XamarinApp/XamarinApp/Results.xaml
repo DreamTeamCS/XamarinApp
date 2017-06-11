@@ -16,7 +16,10 @@
     <BoxView Color="#5A007D" Grid.ColumnSpan="3" HeightRequest="80" HorizontalOptions="FillAndExpand"/>
     <Label Text="Results" FontSize="40" FontFamily="Roboto" TextColor="White" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"/>
     <Label Text="Statistics" FontSize="40" TextColor="White" FontFamily="Roboto" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center"/>
+      <Button HorizontalOptions="FillAndExpand" Grid.Column="1" Opacity="0" Clicked="StatNav_Click"/>
     <Label Text="Table" FontSize="40" TextColor="White" FontFamily="Roboto" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center"/>
+      <Button HorizontalOptions="FillAndExpand" Grid.Column="2" Opacity="0" Clicked="TableNav_Click"/>
+      <BoxView Color="Gray" HeightRequest="4" VerticalOptions="End" HorizontalOptions="FillAndExpand" Grid.Column="0"/>
         </Grid>
     
     <!-- základ -->

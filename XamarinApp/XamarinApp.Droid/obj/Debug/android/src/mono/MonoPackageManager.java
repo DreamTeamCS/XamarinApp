@@ -110,11 +110,8 @@ class MonoPackageManager_Resources {
 		"Xamarin.Forms.Platform.dll",
 		"Xamarin.Forms.Xaml.dll",
 		"XamarinApp.dll",
-		"SQLite-net.dll",
-		"SQLitePCLRaw.core.dll",
-		"SQLitePCLRaw.batteries_v2.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_23";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_25";
 }

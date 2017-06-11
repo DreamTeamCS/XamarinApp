@@ -10,28 +10,28 @@ namespace XamarinApp
     public class TeamDatabase
     {
         private SQLiteAsyncConnection database;
-
         public TeamDatabase(string dbPath)
         {
             database = new SQLiteAsyncConnection(dbPath);
+
+            //hází výjimku
             database.CreateTableAsync<Team>().Wait();
         }
-
-        // Query using SQL query string
         public Task<List<Team>> GetItemsAsync()
         {
             return database.Table<Team>().ToListAsync();
         }
-
-        // Query using LINQ
-        public Task<Team> GetTeam(int pos)
+        public Task<List<Team>> GetItemsNotDoneAsync()
         {
-            return database.Table<Team>().Where(i => i.Position == pos).FirstOrDefaultAsync();
+            return database.QueryAsync<Team>("SELECT * FROM [Team] WHERE [Done] = 0");
         }
-
+        public Task<Team> GetItemAsync(int id)
+        {
+            return database.Table<Team>().Where(i => i.ID == id).FirstOrDefaultAsync();
+        }
         public Task<int> SaveItemAsync(Team team)
         {
-            if (team.Position != 0)
+            if (team.ID != 0)
             {
                 return database.UpdateAsync(team);
             }
@@ -40,15 +40,9 @@ namespace XamarinApp
                 return database.InsertAsync(team);
             }
         }
-
         public Task<int> DeleteItemAsync(Team team)
         {
             return database.DeleteAsync(team);
-        }
-
-        public Task<List<Team>> DeleteItems()
-        {
-            return database.QueryAsync<Team>("Delete FROM [Team]");
         }
     }
 }

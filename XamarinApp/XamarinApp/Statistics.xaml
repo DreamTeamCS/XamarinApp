@@ -14,10 +14,52 @@
 
             <BoxView Color="#5A007D" Grid.ColumnSpan="3" HeightRequest="80" HorizontalOptions="FillAndExpand"/>
             <Label Text="Results" FontSize="40" FontFamily="Roboto" TextColor="White" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center"/>
+            <Button HorizontalOptions="FillAndExpand" Grid.Column="0" Opacity="0" Clicked="ResultsNav_Click"/>
             <Label Text="Statistics" FontSize="40" TextColor="White" FontFamily="Roboto" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center"/>
-            <Label Text="Table" FontSize="40" TextColor="White" FontFamily="Roboto" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center"/>
-            <BoxView Color="Gray" HeightRequest="4" VerticalOptions="End" HorizontalOptions="FillAndExpand" Grid.Column="1"/>
+          <Label Text="Table" FontSize="40" TextColor="White" FontFamily="Roboto" Grid.Column="2" VerticalOptions="Center" HorizontalOptions="Center"/>
+          <Button HorizontalOptions="FillAndExpand" Grid.Column="2" Opacity="0" Clicked="TableNav_Click"/>
+            <BoxView Color="Gray" HeightRequest="4" VerticalOptions="End" HorizontalOptions="FillAndExpand"  Grid.Column="1"/>
         </Grid>
+
+      <Grid>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="2*" />
+          <ColumnDefinition Width="2*" />
+          <ColumnDefinition Width="2*" />
+          <ColumnDefinition Width="*" />
+          <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+          <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <BoxView Color="White" Grid.ColumnSpan="6" Grid.Row="0" HeightRequest="180" HorizontalOptions="FillAndExpand"/>
+        <Label Text="Goals" FontSize="40" FontFamily="Roboto" TextColor="#4e5964" Grid.Column="3" Grid.Row="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+        <BoxView Color="Black" HeightRequest="90" WidthRequest="90" VerticalOptions="Center" HorizontalOptions="Center" Grid.Row="0"  Grid.Column="0"/>
+
+
+
+
+        <BoxView Color="#5A007D" Grid.ColumnSpan="6" HeightRequest="190" Grid.Row="1" HorizontalOptions="FillAndExpand"/>
+        <Label Text="Assists" FontSize="40" FontFamily="Roboto" TextColor="White" Grid.Column="1" Grid.Row="1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+        <BoxView Color="Black" HeightRequest="90" WidthRequest="90" VerticalOptions="Center" Grid.Row="1" HorizontalOptions="Center"  Grid.Column="5"/>
+
+
+        <BoxView Color="White" Grid.ColumnSpan="6" HeightRequest="190" Grid.Row="2" HorizontalOptions="FillAndExpand"/>
+        <Label Text="Best offense" FontSize="40" FontFamily="Roboto" Grid.Row="2" TextColor="#4e5964" Grid.Column="3" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+        <BoxView Color="Black" HeightRequest="90" WidthRequest="90" Grid.Row="2" VerticalOptions="Center" HorizontalOptions="Center"  Grid.Column="0"/>
+
+
+        <BoxView Color="#5A007D" Grid.ColumnSpan="6" HeightRequest="190" Grid.Row="3" HorizontalOptions="FillAndExpand"/>
+        <Label Text="Best defense" FontSize="40" FontFamily="Roboto" TextColor="White" Grid.Row="3" Grid.Column="1" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"/>
+        <BoxView Color="Black" HeightRequest="90" WidthRequest="90" VerticalOptions="Center" Grid.Row="3" HorizontalOptions="Center"  Grid.Column="5"/>
+
+      </Grid>
+
 
     </StackLayout>
 </ContentPage>

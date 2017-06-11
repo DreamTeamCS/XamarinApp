@@ -27,7 +27,7 @@ namespace XamarinApp
                 }
             };
 
-            MainPage = new NavigationPage(new Table());
+            MainPage = new NavigationPage(new Results());
         }
 
         protected override void OnStart()
@@ -43,6 +43,19 @@ namespace XamarinApp
         protected override void OnResume()
         {
             // Handle when your app resumes
+        }
+        private static TeamDatabase _database;
+
+        public static TeamDatabase Database
+        {
+            get
+            {
+                if (_database == null)
+                {
+                    _database = new TeamDatabase(DependencyService.Get<IFileHelper>().GetLocalFilePath("TodoSQLite.db3"));
+                }
+                return _database;
+            }
         }
     }
 }

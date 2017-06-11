@@ -24,20 +24,31 @@ namespace XamarinApp
 
         public override string ToString()
         {
-            return "Position: " + Position + " Name: " + Name + " Played: " + Played() + " Won: " + Won + " Drawn: " + Drawn + " Lost: " + Lost + " Scored: " + Scored + " Conceded: " + Conceded + " Goal Difference: " + GoalDifference() + " Points: " + Points();
+            return "Position: " + Position + " Name: " + Name + " Played: " + Played + " Won: " + Won + " Drawn: " + Drawn + " Lost: " + Lost + " Scored: " + Scored + " Conceded: " + Conceded + " Goal Difference: " + GoalDifference+ " Points: " + Points;
         }
 
-        public int GoalDifference()
+        public int GoalDifference
         {
-            return Scored - Conceded;
+            get
+            {
+                return Scored - Conceded;
+            }
         }
-        public int Played()
+
+        public int Played
         {
-            return Won + Drawn + Lost;
+            get
+            {
+                return Won + Drawn + Lost;
+            }
         }
-        public int Points()
+
+        public int Points
         {
-            return Won * 3 + Drawn;
+            get
+            {
+                return Won * 3 + Drawn;
+            }
         }
     }
 }

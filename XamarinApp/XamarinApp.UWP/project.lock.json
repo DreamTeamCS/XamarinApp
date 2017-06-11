@@ -15757,16 +15757,16 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\dana\\Desktop\\Repos\\XamarinApp\\XamarinApp\\XamarinApp.UWP\\XamarinApp.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\dana\\Desktop\\Repos\\PremApp\\XamarinApp\\XamarinApp.UWP\\XamarinApp.UWP.csproj",
       "projectName": "XamarinApp.UWP",
-      "projectPath": "C:\\Users\\dana\\Desktop\\Repos\\XamarinApp\\XamarinApp\\XamarinApp.UWP\\XamarinApp.UWP.csproj",
-      "projectJsonPath": "C:\\Users\\dana\\Desktop\\Repos\\XamarinApp\\XamarinApp\\XamarinApp.UWP\\project.json",
+      "projectPath": "C:\\Users\\dana\\Desktop\\Repos\\PremApp\\XamarinApp\\XamarinApp.UWP\\XamarinApp.UWP.csproj",
+      "projectJsonPath": "C:\\Users\\dana\\Desktop\\Repos\\PremApp\\XamarinApp\\XamarinApp.UWP\\project.json",
       "projectStyle": "ProjectJson",
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "C:\\Users\\dana\\Desktop\\Repos\\XamarinApp\\XamarinApp\\XamarinApp\\XamarinApp.csproj": {
-              "projectPath": "C:\\Users\\dana\\Desktop\\Repos\\XamarinApp\\XamarinApp\\XamarinApp\\XamarinApp.csproj"
+            "C:\\Users\\dana\\Desktop\\Repos\\PremApp\\XamarinApp\\XamarinApp\\XamarinApp.csproj": {
+              "projectPath": "C:\\Users\\dana\\Desktop\\Repos\\PremApp\\XamarinApp\\XamarinApp\\XamarinApp.csproj"
             }
           }
         }
